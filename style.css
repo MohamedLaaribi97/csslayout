@@ -75,6 +75,7 @@ width: 200px;
 .boxes{
 	display: flex;
 justify-content: space-around;
+padding: 25px;
 }
 .list-content{
 	display: flex;
@@ -90,6 +91,7 @@ justify-content: space-around;
 	}
 .logo{
 	display: flex;
+	padding: 25px;
 }
 .logo h1{
 	text-align: center;
@@ -97,7 +99,7 @@ justify-content: space-around;
 }
 .offices__slider{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin: 10px;
 }
 .btn{
@@ -108,7 +110,8 @@ justify-content: space-around;
 }
 .stats{
 	background: #e5faf8;
-	background-image:linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1))
+	background-image:linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+	margin-bottom: 25px;
 
 }
 .stats h1{
@@ -135,4 +138,9 @@ justify-content: space-around;
 	display: flex;
 	justify-content:space-around;
 	margin-top: 15px;
+	padding-bottom: 25px;
+}
+.boxh2{
+	width: 200px;
+	background-color: white;
 }
